@@ -32,7 +32,7 @@ public class StoryActivity extends AppCompatActivity {
         String story = "She tripped on a " + food;
         story += " and fell into the street in front of a " + vehicle + ".";
         story += " The " + vehicle + " driver screeched the " + vehicle + " to a halt and yelled, 'How dare you!' \n\n";
-        story += "She was so mad that she picked up the smooshed " + food + " and threw it at the driver's " + bodypart;
+        story += "She was so mad that she picked up the smooshed " + food + " and threw it at the driver's face";
         story += ". The driver, little did she know, loved her spunk and " + expression;
         story += ". The " + food + " guts ran down his brow and onto his " + bodypart;
         story += ". She said, 'you've got " + food + " on your " + bodypart;
