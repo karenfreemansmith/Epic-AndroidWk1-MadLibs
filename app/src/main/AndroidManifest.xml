@@ -15,7 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StoryActivity"></activity>
+        <activity android:name=".StoryActivity"
+            android:theme="@style/StoryTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.guest.madlibs.MainActivity">
+            </meta-data>
+        </activity>
     </application>
 
 </manifest>

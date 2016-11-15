@@ -32,5 +32,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textSize="30sp"
-        android:text="Nice Running into You..." />
+        android:text="Nice Running into You..."
+        android:textColor="@color/colorStoryAccent" />
 </RelativeLayout>
