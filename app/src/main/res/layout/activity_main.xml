@@ -68,7 +68,7 @@
         android:layout_below="@+id/inputDayEditText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:hint="Place with Food" />
+        android:hint="A Restaurant" />
 
     <EditText
         android:layout_width="wrap_content"
