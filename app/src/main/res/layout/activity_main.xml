@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.guest.madlibs.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We know you've never played Mad Libs before. Let us tell you how it works! Fill in all the blanks with words that match the prompt, then push the button to get your story! "
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputFoodEditText"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp"
+        android:hint="A Food" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputBodyPartEditText"
+        android:layout_below="@+id/inputFoodEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="A Body Part" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputFacialExpressionEditText"
+        android:layout_below="@+id/inputBodyPartEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="A Facial Expression" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputVehicleEditText"
+        android:layout_below="@+id/inputFacialExpressionEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="A Vehicle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputDayEditText"
+        android:layout_below="@+id/inputVehicleEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="A Day" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputFoodPlacEditText"
+        android:layout_below="@+id/inputDayEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Place with Food" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputNounEditText"
+        android:layout_below="@+id/inputFoodPlacEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="A Noun" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tell Me a Story!"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorAccent" />
+
+</RelativeLayout>
